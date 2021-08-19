@@ -11,7 +11,7 @@ KLTS 提供了基于 deb 和 rpm 的软件源的安装方式. 您可以选择适
 
 {{< tabs groupId="pkg" >}}
 {{< tab name="YUM" codelang="bash" >}}
-cat << EOF > /etc/yum.repos.d/klts.repo
+cat << \EOF > /etc/yum.repos.d/klts.repo
 [klts]
 name=klts
 baseurl=https://raw.githubusercontent.com/klts-io/kubepatch/repos/rpm/$basearch/
